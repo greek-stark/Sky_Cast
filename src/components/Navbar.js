@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <div className="nav-inner">
-        <NavLink to="/" className="brand">Weather<span>IQ</span></NavLink>
+        <NavLink to="/" className="brand">Jack<span>Zone</span></NavLink>
         <div className="nav-links">
           {links.map(([to, label]) => (
             <NavLink
